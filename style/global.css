@@ -31,6 +31,14 @@
     --fs-lg: 1.25rem;
     --fs-xl: 1.5rem;
     --fs-2xl: 2.5rem;
+
+    /*py significa padding no eixo y que equivale a 24px para tela menores*/
+    --py-base: 1rem;
+    --py-lg: 1.5rem;
+    --py-xl: 3rem;
+
+    /* px significa padding no eixo x que equivale a 24px para tela menores*/
+    --px-lg: 1.5rem; 
 }
 
 html {
@@ -78,7 +86,9 @@ ul[role='list'] {
 @media (width >= 80em) { /* 80 * 16 = 1280px  <-> Para converter o px em EM divide o tamanho total da tela por 16px*/
     :root {
         --fs-2xl: 4rem;
-        --fs-lx: 3rem;
+        --fs-xl: 3rem;
         --fs-lg: 2rem;
+
+        --px-lg: 2rem; /* padding no eixo X de 32px*/
     }
 }
